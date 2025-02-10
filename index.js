@@ -12,4 +12,7 @@ fetch("https://script.google.com/macros/s/AKfycbxXs48EoZl7Mj0ewD_A0aE8qS4oN5X_my
     body:JSON.stringify({name,surname,email,number})
 
 })
+button.innerHTML="Successfully submitted";
+alert("we will contact you")
+button.setAttribute("disabled",true)
 })
